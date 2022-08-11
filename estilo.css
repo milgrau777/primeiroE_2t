@@ -1,40 +1,19 @@
+
 body {
-  background: rgb(167, 202, 52);
+  background: purple;
 }
 h1 {
   text-align: center;
 }
-/*
-   position: absolute;
-   position: fixed;
-   position: sticky;
-*/
+/*  
+    position:absolute ;
+    position:fixed ;
+    position:sticky ;
+ */
 .caixa1 {
-   position: relative;
-   width: 200px;
-   height: 200px;
-   background: #AABBBB;
-   left: 50px;
+    position: relative ;
+    width: 200px ;
+    height: 200px ;
+    background: #AABBBB;
+    left: 50%; 
 }
-.menuPrincipal {
-  position: absolute; 
-  background: rgba(45, 236, 98, 0.418);
-  width: 100%;
-  height: 100px;
-  top: 0;
-}
-nav ul {
-  list-style-type:none
-  margin: 0;
-  padding: 0;
-  overflow: 0;
-}
-li{ 
-float: left;
-}
-li a {
-display: block;
-color: chocolate;
-text-align: center;
-pedding: 14px 16px;
-text-decoration:none;
